@@ -22,7 +22,7 @@ class Letters extends Component {
               type="text"
               className="input-field"
               id="input-text"
-              value={inputValue}
+              name={inputValue}
               placeholder="Enter the phrase"
               onChange={this.calculateLetters}
             />
